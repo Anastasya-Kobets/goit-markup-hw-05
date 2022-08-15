@@ -473,11 +473,26 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <form>
         <button type="button" class="icon-modal" data-modal-close>
           <svg class="modal-close" width="11" height="11">
             <use href="./images/symbol-defs.svg#icon-close" class=""></use>
           </svg>
         </button>
+          <h4>Залиште свої дані, ми вам передзвонимо</h4>
+          <label for="name">Ім'я </label>
+          <input type="text" name="name" id="name">
+
+          <label for="tel">Телефон </label>
+          <input type="number" name="tel" id="tel">
+
+          <label for="email">Ім'я </label>
+          <input type="email" name="email" id="email">
+
+          <label>Коментар </label>
+          <textarea></textarea>
+
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
